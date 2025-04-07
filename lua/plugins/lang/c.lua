@@ -65,7 +65,7 @@ return {
             "clangd",
             "--background-index",
             "--clang-tidy",
-            "--header-insertion=iwyu",
+            "--header-insertion=never",
             "--completion-style=detailed",
             "--function-arg-placeholders",
             "--fallback-style=llvm",
