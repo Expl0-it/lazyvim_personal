@@ -20,3 +20,6 @@ vim.keymap.set("i", "<S-Tab>", "<C-V><Tab>")
 -- Set tab length to x spaces
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+
+-- 	AUTOFORMAT
+vim.g.autoformat = false
