@@ -3,5 +3,5 @@ return {
   { import = "plugins.lang" },
   { import = "plugins.builtin" },
   { import = "plugins.42" },
-  { import = "plugins.own" },
+  --  { import = "plugins.own" },
 }
