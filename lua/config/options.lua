@@ -22,4 +22,4 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
 -- 	AUTOFORMAT
-vim.g.autoformat = false
+vim.g.autoformat = true
