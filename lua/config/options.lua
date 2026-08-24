@@ -14,12 +14,13 @@ vim.opt.linebreak = true
 
 -- TAB BEHAVIOUR
 -- Set tab to behave as tab not spaces
-vim.opt.expandtab = false
+-- vim.opt.expandtab = false
 -- Put non expanded tab on Shift + Tab
 vim.keymap.set("i", "<S-Tab>", "<C-V><Tab>")
 -- Set tab length to x spaces
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+-- vim.opt.tabstop = 4
+-- vim.opt.shiftwidth = 4
+-- vim.opt.softtabstop = 4
 
 -- 	AUTOFORMAT
 vim.g.autoformat = true
